@@ -54,7 +54,7 @@ public void printResult(){
 
 public int getResult()
 {
-    return this.result;
+    return result;
 }
 
 
