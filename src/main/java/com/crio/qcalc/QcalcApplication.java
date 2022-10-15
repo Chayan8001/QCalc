@@ -11,7 +11,7 @@ public class QcalcApplication {
 
 		StandardCalculator calc = new StandardCalculator();
  
-		calc.add(1, 2);
+		calc.divide(5, 3);
  
 		System.out.println(calc.getResult());
  
