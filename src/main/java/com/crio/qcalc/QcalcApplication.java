@@ -10,10 +10,10 @@ public class QcalcApplication {
 		System.out.println("Starting QCalc..");
 
 		StandardCalculator calc = new StandardCalculator();
- 
-		calc.add(1.2, 3.2);
- 
-		System.out.println(calc.getResult());
+
+		calc.add(Double.MAX_VALUE, Double.MAX_VALUE);
+
+		calc.printResult();
  
 	}
 
